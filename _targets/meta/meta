@@ -1,0 +1,13 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+dest_dir|stem|2a76d4f0e61a5360|476539da2a3d3566|2c530c1562a7fbd1|2040182801||t20601.796540266s|s101b|101|rds|local|vector|||0||
+year_range|stem|c3bf00601047f79a|4c9aece1501f1f15|2c530c1562a7fbd1|323931311||t20601.9093738582s|s104b|104|rds|local|vector|||0||
+gamelogs_raw|stem|a708a9baef3b44cc|9fc721af1f59e53b|56e0240c629d4f73|-1677621871||t20601.9115897391s|s6586559b|6586559|rds|local|vector|||2.33||
+gamelogs_clean|stem|9d06b0a1bd8c80ed|40f998e714da6aa3|82d3eb53afd15444|-1029749702||t20601.9116320944s|s6573523b|6573523|rds|local|vector|||0.72||
+gamelogs_agg|stem|19fe5fa50522e86f|41c6442807839ba8|75b2c18d8b4736fa|-1575756182||t20601.9116432728s|s19759b|19759|rds|local|vector|||0.08||
+pythagenpat_fit|stem|0021f93d15097b9c|ac8a805231d8429d|c16572b571bfde60|-856114135||t20601.9116439119s|s16365b|16365|rds|local|vector|||0.03||
+fetch_gamelogs|function|b173ab2904a18ee6
+clean_gamelogs|function|e17d20ebcb714cb9
+aggregate_gamelogs|function|1ca0ff6ed5e874f8
+estimate_pythagenpat|function|471edf4c08f491b1
+parse_gamelogs|function|dc57112c460ea8e0
+gamelog_files|stem|8cf259f9c8b1f60c|a142a52a7bebf047|b620544a6b719c98|-934354721|C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2010.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2011.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2012.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2013.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2014.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2015.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2016.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2017.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2018.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2019.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2020.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2021.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2022.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2023.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2024.txt*C:/Projects/sabermetrics/data/retrosheet_gamelogs/gl2025.txt|t20601.911540495s|s40646507b|40646507|file|local|vector|||0.29||
